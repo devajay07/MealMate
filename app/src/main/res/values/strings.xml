@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MealMate</string>
+    <string name="login_button">Log In With Google</string>
+    <string name="login">LogIn</string>
 </resources>
