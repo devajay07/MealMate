@@ -16,7 +16,7 @@
         android:paddingVertical="8dp"
         android:text="@string/login_button"
         android:textColor="@color/brand_colour"
-        android:textSize="20sp"
+        android:textSize="23sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline_bottom"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"

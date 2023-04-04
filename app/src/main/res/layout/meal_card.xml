@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="16dp"
+    app:cardCornerRadius="12dp"
+    android:background="@drawable/meal_card_bg"
+    android:elevation="2dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@drawable/meal_card_bg">
+
+        <ImageView
+            android:id="@+id/mealImage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/logo"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="26dp" />
+
+        <TextView
+            android:id="@+id/mealName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/mealImage"
+            android:layout_toRightOf="@+id/mealImage"
+            android:text="Deluxe Veg Thali"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/mealPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mealName"
+            android:layout_alignLeft="@+id/mealName"
+            android:layout_marginBottom="3dp"
+            android:text="3500/month"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/mealDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/mealName"
+            android:layout_below="@+id/mealPrice"
+            android:layout_marginTop="8dp"
+            android:maxLines="3"
+            android:text="Meal Description"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="17sp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

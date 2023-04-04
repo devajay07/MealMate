@@ -2,4 +2,15 @@
     <string name="app_name">MealMate</string>
     <string name="login_button">Log In With Google</string>
     <string name="login">LogIn</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="title_home">Home</string>
+    <string name="title_subscription">Subscription</string>
+    <string name="title_account">Account</string>
+    <string name="address">Address</string>
+    <string name="filter_yellow">Budget</string>
+    <string name="filter_red">Non Veg</string>
+    <string name="filter_green">Veg</string>
+    <string name="filter_orange">Deluxe</string>
+    <string name="filter_healthy">Healthy</string>
+    <string name="filter_north_indian">North-Indian</string>
 </resources>

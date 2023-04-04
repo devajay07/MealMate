@@ -11,4 +11,10 @@
     <color name="secondary_colour">#FFFFFFFF</color>
     <color name="brand_colour">#493838</color>
     <color name="black">#000</color>
+    <color name="filter_green">#DDFFBB</color>
+    <color name="filter_orange">#F7A4A4</color>
+    <color name="filter_yellow">#FFD966</color>
+    <color name="filter_red">#F16767</color>
+    <color name="filter_healthy">#7AA874</color>
+    <color name="filter_north_indian">#CEE5D0</color>
 </resources>

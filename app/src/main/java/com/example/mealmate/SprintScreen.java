@@ -21,7 +21,7 @@ public class SprintScreen extends AppCompatActivity {
 
         // Define the animation
         Animation animation = new TranslateAnimation(0, 0, brandNameTextView.getHeight(), 0);
-        animation.setDuration(3000); // Set the duration of the animation in milliseconds
+        animation.setDuration(1200); // Set the duration of the animation in milliseconds
 
         // Apply the animation to the brand_name TextView
         brandNameTextView.startAnimation(animation);
@@ -31,11 +31,11 @@ public class SprintScreen extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(getApplicationContext(), Login.class);
+                Intent intent = new Intent(getApplicationContext(), HomePage.class);
                 startActivity(intent);
                 finish();
             }
-        }, 2000);
+        }, 3000);
 
     }
 }
